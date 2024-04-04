@@ -1,0 +1,215 @@
+
+
+.main-container { 
+    display: flex;
+    flex-direction: column;
+    background-color:#1F2937;
+    color: white;
+    /* align-items: stretch; */
+    /* margin: 0 auto; */
+    padding-bottom: 5%; 
+    /* Мансур, если я тут бред пишу, прости */
+  }
+
+  .first-container {
+
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding-bottom: 10%; 
+    gap: 50px; 
+   }
+
+  .firstpage {
+
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 50px;
+
+  }
+  .str {
+    display: flex;
+   
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .links {
+    display: flex;
+    gap: 32px;
+
+  }
+  .links>p>a {
+
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+    
+      
+  }
+
+  .logo {
+    
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 3px;
+  }
+
+  .description {
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-around; /* не понимаю почему не помогает */
+    
+  }
+  .description h1 {
+    font-size: 36px;
+    color: #F9FAF8;
+    margin: 0; 
+    /* поставила margin чтоб текст с фоткой встали на один уровень 
+    вроде норм получилось но
+    суть в том что я не знаю это верное решение проблемы или нет */
+  }
+
+  .mainphoto img {
+
+    width: 400px;
+    height: 300px;
+  }
+  
+/* 2  */
+
+.secondpage {
+
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 5%;
+    gap: 30px;
+    justify-content: center;
+  }
+
+
+.title {
+
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .title>h2 {
+
+    font-size: 36px;
+    font-weight: 800; /* почему-то не работает */
+    color: #1F2937;
+
+  }
+
+  img {
+
+    width: 200px;
+    height: 200px;
+  }
+
+  .imageandtext {
+
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+
+  .blocks {
+
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+  }
+
+  .item {
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #1F2937;
+    font-size: 18px;
+  }
+
+  /* 3  */
+
+  .inspiringquote{
+    background-color:  #e5e5e5;
+    display: flex;
+    justify-content: center;
+    padding: 150px 130px 150px 130px
+  }
+
+  .inspiringquote>p {
+
+    color:  #1F2937;
+    font-size: 36px;
+    font-style: italic; 
+    /* написано в шаблоне light italic но у меня не работает он */
+    
+  }
+
+  /* 4 тут уже фантазии не хватило*/
+
+  .last-page {
+
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding: 5%;
+   
+  }
+
+  .list {
+    display: flex;
+    align-items: center;
+
+    gap: 60px;
+    background-color:#1c66ce ;
+    padding: 3% 10% 3% 10%;
+    border-radius: 10px;
+    font-size: 18px;
+  }
+
+  /* батоны */
+
+  .description button {
+    font-size: 1em;
+    padding: 1.5% 8% 1.5% 8%;
+  
+    color: white;
+    border: 2px solid white;
+    border-radius: 38px;
+  
+    font-weight: 600;
+  
+    background: #3882F6;
+  
+    cursor: pointer;
+  }
+  
+
+  .list button {
+    font-size: 1em;
+  
+    padding: 5px 5px 5px 5px;
+    width: 150px;
+    height: 40px;
+  
+    color: white;
+    font-weight: 600;
+  
+    background: none;
+    border-radius: 38px;
+    border: 2px solid white;
+  
+    cursor: pointer;
+  }
+  
+ 
